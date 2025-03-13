@@ -384,11 +384,4 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 - Puedo seleccionar un docente y generar un acta personalizada
 - El acta incluye compromisos específicos y plazos
 - Puedo imprimir el acta para firmas físicas
-- El sistema guarda una copia digital del acta firmada
-
-### Docente
-
-#### HU-10: Autoevaluación
-**Como** docente,  
-**Quiero** realizar mi autoevaluación de desempeño,  
-**Para** reflex
+- El sistema guarda una copia digital del acta firmada.
