@@ -14,8 +14,7 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 
 ### Actores Principales
 - **Administrador**: Gestiona la configuración global del sistema, usuarios, roles y permisos.
-- **Decano**: Supervisa las evaluaciones a nivel de facultad y toma decisiones basadas en los resultados.
-- **Coordinador**: Gestiona las evaluaciones a nivel de departamento y realiza seguimiento a los planes de mejora.
+- **Decano/Coordinador**: Supervisa las evaluaciones a nivel de facultad y toma decisiones basadas en los resultados. Ademas gestiona las evaluaciones a nivel de departamento y realiza seguimiento a los planes de mejora.
 - **Docente**: Usuario evaluado que también realiza autoevaluaciones.
 
 ## Casos de Uso
@@ -87,7 +86,7 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 ### 3. Reportes y Estadísticas
 
 #### CU-11: Generación de Reportes
-**Actor Principal**: Administrador/Decano/Coordinador
+**Actor Principal**: Administrador/Decano/Coordinador/Docente
 
 **Flujo Principal**:
 1. El usuario accede al módulo de reportes.
