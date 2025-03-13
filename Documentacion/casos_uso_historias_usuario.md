@@ -17,7 +17,6 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 - **Decano**: Supervisa las evaluaciones a nivel de facultad y toma decisiones basadas en los resultados.
 - **Coordinador**: Gestiona las evaluaciones a nivel de departamento y realiza seguimiento a los planes de mejora.
 - **Docente**: Usuario evaluado que también realiza autoevaluaciones.
-- **Estudiante**: Realiza evaluaciones a los docentes de los cursos que está tomando.
 
 ## Casos de Uso
 
@@ -49,71 +48,7 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 **Flujos Alternativos**:
 - Si se intenta eliminar un rol en uso, el sistema muestra una advertencia.
 
-### 2. Configuración de Periodos de Evaluación
-
-#### CU-03: Creación de Periodo de Evaluación
-**Actor Principal**: Administrador
-
-**Flujo Principal**:
-1. El administrador accede al módulo de periodos de evaluación.
-2. El administrador crea un nuevo periodo especificando nombre, fechas y estado.
-3. El sistema valida y guarda el nuevo periodo.
-4. El sistema notifica a los usuarios relevantes sobre el nuevo periodo.
-
-**Flujos Alternativos**:
-- Si las fechas son inválidas, el sistema muestra un mensaje de error.
-- Si existe solapamiento con otro periodo activo, el sistema advierte al administrador.
-
-#### CU-04: Gestión de Criterios de Evaluación
-**Actor Principal**: Administrador
-
-**Flujo Principal**:
-1. El administrador accede a la configuración de criterios de evaluación.
-2. El sistema muestra los criterios existentes.
-3. El administrador puede crear, editar o desactivar criterios.
-4. El administrador asigna pesos a cada criterio.
-5. El sistema guarda los cambios.
-
-### 3. Evaluación Docente
-
-#### CU-05: Realizar Autoevaluación
-**Actor Principal**: Docente
-
-**Flujo Principal**:
-1. El docente accede a su panel de evaluaciones pendientes.
-2. El sistema muestra los formularios de autoevaluación disponibles.
-3. El docente completa la autoevaluación respondiendo a los criterios establecidos.
-4. El docente envía la autoevaluación.
-5. El sistema registra las respuestas y calcula la puntuación.
-
-**Flujos Alternativos**:
-- Si el periodo de evaluación ha finalizado, el sistema no permite completar la autoevaluación.
-- El docente puede guardar un borrador para continuar más tarde.
-
-#### CU-06: Evaluación por Estudiantes
-**Actor Principal**: Estudiante
-
-**Flujo Principal**:
-1. El estudiante accede al sistema de evaluación.
-2. El sistema muestra la lista de docentes que puede evaluar.
-3. El estudiante selecciona un docente y completa el formulario de evaluación.
-4. El estudiante envía la evaluación.
-5. El sistema registra las respuestas de forma anónima.
-
-**Flujos Alternativos**:
-- Si el estudiante ya ha evaluado al docente, el sistema no permite otra evaluación.
-
-#### CU-07: Evaluación Administrativa
-**Actor Principal**: Coordinador/Decano
-
-**Flujo Principal**:
-1. El coordinador/decano accede al módulo de evaluaciones pendientes.
-2. El sistema muestra la lista de docentes que debe evaluar.
-3. El coordinador/decano selecciona un docente y completa el formulario de evaluación.
-4. El coordinador/decano envía la evaluación.
-5. El sistema registra las respuestas y calcula la puntuación.
-
-### 4. Gestión de Planes de Mejora
+### 2. Gestión de Planes de Mejora
 
 #### CU-08: Creación de Plan de Mejora
 **Actor Principal**: Coordinador/Decano
@@ -149,7 +84,7 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 3. El docente registra avances y carga evidencias.
 4. El sistema actualiza el estado del plan.
 
-### 5. Reportes y Estadísticas
+### 3. Reportes y Estadísticas
 
 #### CU-11: Generación de Reportes
 **Actor Principal**: Administrador/Decano/Coordinador
@@ -173,7 +108,7 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 3. El usuario puede filtrar por periodo, departamento o facultad.
 4. El sistema actualiza las visualizaciones según los filtros aplicados.
 
-### 6. Gestión de Alertas y Notificaciones
+### 4. Gestión de Alertas y Notificaciones
 
 #### CU-13: Configuración de Alertas
 **Actor Principal**: Administrador
@@ -193,7 +128,7 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 3. El usuario puede marcar notificaciones como leídas o eliminarlas.
 4. El sistema actualiza el estado de las notificaciones.
 
-### 7. Actas de Compromiso
+### 5. Actas de Compromiso
 
 #### CU-15: Generación de Acta de Compromiso
 **Actor Principal**: Coordinador/Decano
