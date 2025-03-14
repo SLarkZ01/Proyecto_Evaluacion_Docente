@@ -114,7 +114,7 @@ ProyectoEvaluacionDocente/
 
 - **Copia** la carpeta `ProyectoEvaluacionDocente` en el directorio raíz de tu servidor local (por ejemplo, en `htdocs` si usas XAMPP).
 - **Accede** a la aplicación mediante:  
-  [https://slarkz01.github.io/Proyecto_Evaluacion_Docente/](https://slarkz01.github.io/Proyecto_Evaluacion_Docente/).
+  [https://slarkz01.github.io/Proyecto_Evaluacion_Docente/](https://slarkz01.github.io/Proyecto_Evaluacion_Docente/)
 
 ### (Fase Futura) Integración con Backend
 
