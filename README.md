@@ -50,77 +50,158 @@ El **Proyecto Evaluación Docente** busca optimizar el proceso de evaluación de
 
 La estructura principal del repositorio incluye:
 
-ProyectoEvaluacionDocente/ ├─ .git/ # Carpeta de Git (versionado) ├─ Base de datos/ │ └─ sistema_evaluacion_docente.sql # Script SQL (estructura de tablas) ├─ Documentacion/ │ └─ casos_uso_historias_usuario.md # Documentos de requerimientos ├─ images/ │ ├─ FondoUniversidad.jpg │ ├─ FondoUniversidad.png │ └─ Logo Uniautonoma.png ├─ PanelAdministrador/ │ ├─ panel-admin.html │ ├─ admin-script.js │ └─ ... ├─ PanelDocente/ │ ├─ panel-docente.html │ ├─ script.js │ └─ ... ├─ acta-compromiso.html ├─ acta-script.js ├─ alertas-bajo-desempeno.html ├─ alertas-script.js ├─ index.html ├─ login.html ├─ login.js ├─ script.js ├─ styles.css └─ README.md # Este archivo
+ProyectoEvaluacionDocente/
+├─ .git/                 # Carpeta de Git (versionado)
+├─ Base de datos/
+│   └─ sistema_evaluacion_docente.sql  # Script SQL (estructura de tablas)
+├─ Documentacion/
+│   └─ casos_uso_historias_usuario.md  # Documentos de requerimientos
+├─ images/
+│   ├─ FondoUniversidad.jpg
+│   ├─ FondoUniversidad.png
+│   └─ Logo Uniautonoma.png
+├─ PanelAdministrador/
+│   ├─ panel-admin.html
+│   ├─ admin-script.js
+│   └─ ...
+├─ PanelDocente/
+│   ├─ panel-docente.html
+│   ├─ script.js
+│   └─ ...
+├─ acta-compromiso.html
+├─ acta-script.js
+├─ alertas-bajo-desempeno.html
+├─ alertas-script.js
+├─ index.html
+├─ login.html
+├─ login.js
+├─ script.js
+├─ styles.css
+└─ README.md  # Este archivo
 
 
-- **`PanelAdministrador/`**: Contiene las vistas y scripts relacionados con el rol de administrador/decano (períodos de evaluación, reportes, roles, etc.).
-- **`PanelDocente/`**: Contiene las vistas y scripts para la interfaz del docente (configuración, resultados, seguimiento, etc.).
-- **`Base de datos/`**: Incluye el archivo `sistema_evaluacion_docente.sql` para crear la estructura de tablas en MySQL (a integrar en la fase backend).
-- **`Documentacion/`**: Sección con documentación adicional, como casos de uso e historias de usuario.
+- La carpeta **Base de datos** contiene el script SQL para crear la estructura de la base de datos.
+- **Documentacion** incluye casos de uso e historias de usuario que sustentan los requisitos funcionales.
+- Las carpetas **PanelAdministrador** y **PanelDocente** agrupan los módulos y vistas específicos para cada rol.
+- Se incluyen recursos gráficos en la carpeta **images**, con el logo y fondos institucionales.
 
 ---
 
 ## Requisitos
 
-### Frontend
-- **Navegador web moderno** (Chrome, Firefox, Edge, Safari) con soporte de JavaScript habilitado.
-- Conexión a internet (o servidor local) para cargar las páginas HTML y los recursos.
+### Para el Frontend
+- **Navegador web moderno** (Chrome, Firefox, Edge, Safari) con JavaScript habilitado.
+- Acceso a internet o un servidor local para cargar correctamente todos los recursos (imágenes, scripts, hojas de estilo).
 
-### Backend (Futuro)
-- **PHP 8.x** y **Composer** (para Laravel).
-- **MySQL 5.7+** o **MariaDB** (para la base de datos).
-- **Servidor Web** (Apache/Nginx) configurado para correr aplicaciones Laravel.
+### Para el Backend (Futuro)
+- **PHP 8.x** y **Composer** (para gestionar dependencias en Laravel).
+- **MySQL 5.7+** o **MariaDB** para la base de datos.
+- **Servidor Web** (Apache o Nginx) configurado para correr aplicaciones PHP.
 
-> Por ahora, el backend no está integrado. Se recomienda utilizar un servidor local (p. ej., XAMPP, Wamp, Laragon) si deseas hacer pruebas iniciales de HTML/JS.
+> Actualmente, la integración con el backend aún está pendiente; el enfoque actual es el desarrollo del frontend.
 
 ---
 
 ## Instalación y Ejecución
 
-1. **Clonar el repositorio**:
-   ```bash
-   git clone https://github.com/usuario/ProyectoEvaluacionDocente.git
-   cd ProyectoEvaluacionDocente
-
-## Abrir las páginas HTML directamente en tu navegador
+### Abrir las páginas HTML directamente en tu navegador
 
 - **Abre** `index.html` o `login.html` para probar el flujo de autenticación simulado.
-- **Explora** las demás páginas (`panel-docente.html`, `panel-admin.html`, etc.) para ver los módulos.
+- **Explora** las demás páginas (como `panel-docente.html`, `panel-admin.html`, etc.) para ver los diferentes módulos de la aplicación.
 
----
+### (Opcional) Configurar un Servidor Local
 
-## (Opcional) Configurar un servidor local
+- **Copia** la carpeta `ProyectoEvaluacionDocente` en el directorio raíz de tu servidor local (por ejemplo, en `htdocs` si usas XAMPP).
+- **Accede** a la aplicación mediante:  
+  [http://localhost/ProyectoEvaluacionDocente/index.html](http://localhost/ProyectoEvaluacionDocente/index.html).
 
-- **Copia** la carpeta `ProyectoEvaluacionDocente` en tu directorio raíz de tu servidor local (por ejemplo, `htdocs` en XAMPP).
-- **Accede** a la aplicación mediante [http://localhost/ProyectoEvaluacionDocente/index.html](http://localhost/ProyectoEvaluacionDocente/index.html).
+### (Fase Futura) Integración con Backend
 
----
-
-## (Fase Futura) Integración con Backend
-
-- **Importa** el archivo `Base de datos/sistema_evaluacion_docente.sql` en tu servidor MySQL.
-- **Configura** el proyecto Laravel (cuando se integre) con la base de datos.
-- **Ajusta** rutas de API y endpoints para reemplazar la data simulada por datos reales.
+- **Importa** el archivo `Base de datos/sistema_evaluacion_docente.sql` en tu servidor MySQL para crear la estructura de la base de datos.
+- **Configura** el proyecto Laravel (cuando se integre) para conectarlo a la base de datos.
+- **Ajusta** las rutas de API y endpoints para reemplazar los datos simulados con datos reales.
 
 ---
 
 ## Uso de la Aplicación
 
-- **Inicio de sesión:**  
-  En la página `login.html` se ingresa un usuario y contraseña (actualmente, roles simulados).
+- **Inicio de Sesión:**  
+  La página `login.html` permite ingresar un usuario y contraseña (roles simulados) para acceder al sistema.
 
-- **Panel de Administrador/Decano:**
-  - Gestiona períodos de evaluación.
+- **Panel de Administrador/Decano:**  
+  - Gestiona períodos de evaluación y administra roles.
   - Revisa estadísticas de rendimiento docente.
-  - Emite alertas de bajo desempeño y genera reportes.
+  - Emite alertas de bajo desempeño y genera reportes de evaluación.
 
-- **Panel de Docente:**
+- **Panel de Docente:**  
   - Consulta estadísticas y resultados de sus evaluaciones.
-  - Revisa planes de mejora y actas de compromiso (si aplica).
-  - Configura datos personales (pendiente de persistencia real).
+  - Revisa planes de mejora y actas de compromiso (cuando corresponda).
+  - Permite la configuración de datos personales (pendiente de persistencia real).
 
-- **Reportes y Actas:**
-  - Genera PDF para actas de compromiso (nota < 4).
-  - Visualiza reportes y gráficas con datos de ejemplo (hasta integrar el backend).
+- **Reportes y Actas:**  
+  - Se genera un PDF para actas de compromiso en caso de calificaciones menores a 4.
+  - Se visualizan reportes y gráficos basados en datos simulados hasta integrar el backend.
 
 ---
+
+## Requisitos y Estado del Sistema
+
+El proyecto ha sido definido con una serie de **Requisitos Funcionales (RF)** y **Requisitos No Funcionales (RNF)**, los cuales han sido documentados y analizados detalladamente. Entre ellos se destacan:
+
+- **RF01 a RF017:** Desde la autenticación de usuarios hasta el proceso de sanciones y generación de reportes. Muchos módulos están implementados parcialmente en el frontend y dependen de la futura integración del backend.
+- **RNF01 a RNF09:** Aspectos críticos como seguridad, rendimiento, usabilidad, mantenibilidad, escalabilidad, cumplimiento normativo, interoperabilidad, y aseguramiento de la calidad. Muchos de estos requisitos están en fase de desarrollo o pendientes de pruebas formales.
+
+Para mayor detalle, se incluye documentación y tablas de requisitos en la carpeta **Documentacion**.
+
+---
+
+## Metodología de Desarrollo
+
+El proyecto se desarrolla siguiendo una metodología ágil (por ejemplo, **Scrum**), que incluye:
+
+- **Planificación de sprints:** Definición y priorización de funcionalidades.
+- **Reuniones diarias de seguimiento:** Para coordinar avances y detectar impedimentos.
+- **Revisión y retrospectiva:** Al finalizar cada sprint, se evalúa el progreso y se ajusta el plan de trabajo.
+- **Integración Continua (CI/CD):** Se planifica implementar pipelines automatizados para pruebas y despliegue (especialmente para la futura fase de backend).
+
+---
+
+## Contribución
+
+¡Las contribuciones son bienvenidas! Para contribuir al proyecto, sigue estos pasos:
+
+1. **Haz un fork** del repositorio.
+2. **Crea una rama** con el nombre de la funcionalidad o corrección:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+
+3. **Realiza tus cambios** y haz commits con mensajes descriptivos.  
+4. **Envia un pull request** a la rama principal (main o master según corresponda).  
+
+> Se **recomienda** seguir buenas prácticas de desarrollo, documentación y estilo de código. Para **cambios sustanciales**, abre primero un issue para **discutir lo que deseas modificar.**
+
+---
+
+## Autores
+
+- **Thomas Montoya Magon** – Frontend  
+- **Juan Daniel Bravo** – Frontend  
+- **Alejandro Martínez Salazar** – Backend (futuro)  
+- **Daniel Rivas Agredo** – Base de Datos  
+- **Luisa Julieth Joaqui** – Backend y Base de Datos
+
+---
+
+## Licencia
+
+Este proyecto se encuentra bajo la licencia de tu preferencia (MIT, GPL, etc.). Asegúrate de incluir un archivo `LICENSE` en la raíz del repositorio con los términos de la licencia que desees aplicar.
+
+---
+
+## Contacto
+
+Para preguntas, sugerencias o reportar errores, puedes crear un [issue](https://github.com/usuario/ProyectoEvaluacionDocente/issues) en el repositorio o contactar directamente a alguno de los autores.
+
+---
+
+¡Gracias por tu interés en el **Proyecto Evaluación Docente**! Con tu colaboración, podremos integrar el backend y mejorar la calidad educativa a través de un sistema de evaluación transparente, robusto y eficaz.
