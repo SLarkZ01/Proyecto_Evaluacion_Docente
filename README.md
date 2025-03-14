@@ -28,6 +28,8 @@ El **Proyecto Evaluación Docente** busca optimizar el proceso de evaluación de
 - Facilite a los **docentes** la autoevaluación de su desempeño.
 - Genere **reportes**, **estadísticas** y **actas de compromiso** para el seguimiento y mejora continua.
 - Emita **alertas** y **notificaciones** ante bajo rendimiento y posibles procesos de sanción o retiro.
+- **Accede** a la documentacion completa mediante el pdf:  
+  [Proyecto_de_Evaluación_Docente.pdf](Documentacion/Proyecto_de_Evaluación_Docente.pdf)
 
 > **Nota:** Actualmente, el repositorio contiene mayormente la capa de **frontend** (HTML, CSS y JavaScript) con datos simulados. La integración con un **backend** (PHP, Laravel y MySQL) se llevará a cabo en futuras iteraciones.
 
