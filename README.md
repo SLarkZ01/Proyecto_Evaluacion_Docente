@@ -29,7 +29,7 @@ El **Proyecto Evaluación Docente** busca optimizar el proceso de evaluación de
 - Genere **reportes**, **estadísticas** y **actas de compromiso** para el seguimiento y mejora continua.
 - Emita **alertas** y **notificaciones** ante bajo rendimiento y posibles procesos de sanción o retiro.
 
-## Descripcion general mediante pdf
+### Descripcion general mediante pdf
 
 - **Accede** a la documentacion completa mediante el pdf:  
   [Proyecto_de_Evaluación_Docente.pdf](Documentacion/Proyecto_de_Evaluación_Docente.pdf)
