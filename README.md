@@ -79,7 +79,7 @@ ProyectoEvaluacionDocente/
 ├─ script.js
 ├─ styles.css
 └─ README.md  # Este archivo
-
+```
 
 - La carpeta **Base de datos** contiene el script SQL para crear la estructura de la base de datos.
 - **Documentacion** incluye casos de uso e historias de usuario que sustentan los requisitos funcionales.
