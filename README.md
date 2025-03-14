@@ -50,6 +50,7 @@ El **Proyecto Evaluación Docente** busca optimizar el proceso de evaluación de
 
 La estructura principal del repositorio incluye:
 
+```plaintext
 ProyectoEvaluacionDocente/
 ├─ .git/                 # Carpeta de Git (versionado)
 ├─ Base de datos/
