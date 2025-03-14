@@ -236,17 +236,6 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 
 ### Docente
 
-#### HU-10: Autoevaluación
-**Como** docente,  
-**Quiero** realizar mi autoevaluación de desempeño,  
-**Para** reflexionar sobre mis fortalezas y áreas de mejora.
-
-**Criterios de Aceptación**:
-- Puedo acceder a mi formulario de autoevaluación durante el periodo activo
-- Puedo guardar borradores de mi autoevaluación antes de enviarla
-- Puedo adjuntar evidencias que respalden mi autoevaluación
-- Recibo una confirmación cuando mi autoevaluación ha sido enviada correctamente
-
 #### HU-11: Visualización de Resultados
 **Como** docente,  
 **Quiero** ver los resultados de mis evaluaciones,  
@@ -256,7 +245,6 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 - Puedo ver mis calificaciones por tipo de evaluación (estudiantes, administrativa, autoevaluación)
 - Puedo ver comentarios y observaciones de las evaluaciones
 - Puedo comparar mis resultados con periodos anteriores
-- Puedo ver mi posición relativa respecto al promedio del departamento
 
 #### HU-12: Gestión de Planes de Mejora
 **Como** docente,  
@@ -268,41 +256,3 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 - Puedo registrar avances en cada objetivo del plan
 - Puedo cargar evidencias de las actividades realizadas
 - Recibo recordatorios de fechas límite próximas
-
-### Estudiante
-
-#### HU-13: Evaluación de Docentes
-**Como** estudiante,  
-**Quiero** evaluar a mis docentes de forma anónima,  
-**Para** contribuir a la mejora de la calidad educativa.
-
-**Criterios de Aceptación**:
-- Puedo ver la lista de docentes que puedo evaluar
-- Puedo completar formularios de evaluación con diferentes criterios
-- Mi identidad permanece anónima en las evaluaciones
-- Recibo confirmación cuando mi evaluación ha sido enviada
-
-#### HU-14: Seguimiento de Evaluaciones
-**Como** estudiante,  
-**Quiero** ver el estado de mis evaluaciones pendientes,  
-**Para** asegurarme de completar todas las evaluaciones requeridas.
-
-**Criterios de Aceptación**:
-- Puedo ver cuáles docentes ya he evaluado y cuáles están pendientes
-- Recibo recordatorios sobre evaluaciones pendientes
-- Puedo ver el porcentaje de avance de mis evaluaciones
-- Puedo ver la fecha límite para completar las evaluaciones
-- Puedo registrar observaciones periódicas sobre su desempeño
-- Puedo programar reuniones de retroalimentación
-- Recibo alertas sobre docentes con evaluaciones bajas
-
-#### HU-09: Generación de Actas
-**Como** coordinador de departamento,  
-**Quiero** generar actas de compromiso para docentes con bajo desempeño,  
-**Para** formalizar acuerdos de mejora.
-
-**Criterios de Aceptación**:
-- Puedo seleccionar un docente y generar un acta personalizada
-- El acta incluye compromisos específicos y plazos
-- Puedo imprimir el acta para firmas físicas
-- El sistema guarda una copia digital del acta firmada.
