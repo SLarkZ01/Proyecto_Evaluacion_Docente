@@ -62,6 +62,7 @@ ProyectoEvaluacionDocente/
 │   └─ sistema_evaluacion_docente.sql  # Script SQL (estructura de tablas)
 ├─ Documentacion/
 │   └─ casos_uso_historias_usuario.md  # Documentos de requerimientos
+│   └─ Proyecto_de_Evaluación_Docente.pdf  # Documento pdf del proyecto.
 ├─ images/
 │   ├─ FondoUniversidad.jpg
 │   ├─ FondoUniversidad.png
