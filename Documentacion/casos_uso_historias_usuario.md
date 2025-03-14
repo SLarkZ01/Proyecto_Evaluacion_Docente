@@ -152,7 +152,6 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 **Para** adaptar el funcionamiento a las necesidades institucionales.
 
 **Criterios de Aceptación**:
-- Puedo establecer fechas de inicio y fin de periodos de evaluación
 - Puedo configurar los umbrales para alertas de bajo desempeño
 - Puedo personalizar los mensajes automáticos del sistema
 
@@ -169,7 +168,7 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 
 #### HU-03: Reportes Institucionales
 **Como** administrador del sistema,  
-**Quiero** generar reportes consolidados de evaluación docente,  
+**Quiero** generar reportes consolidados del sistema evaluación docente,  
 **Para** presentar informes a las directivas institucionales.
 
 **Criterios de Aceptación**:
@@ -178,10 +177,10 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 - Puedo exportar los reportes en formatos PDF y Excel
 - Los reportes incluyen gráficos comparativos y tendencias
 
-### Decano
+### Coordinador/Decano
 
 #### HU-04: Visión General de Facultad
-**Como** decano,  
+**Como** Coordinador/Decano,  
 **Quiero** ver un dashboard con indicadores clave de mi facultad,  
 **Para** identificar rápidamente áreas de atención.
 
@@ -192,30 +191,18 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 - Puedo ver tendencias de evaluación entre periodos
 
 #### HU-05: Gestión de Planes de Mejora
-**Como** decano,  
+**Como** Coordinador/Decano,  
 **Quiero** crear y dar seguimiento a planes de mejora para docentes con bajo desempeño,  
 **Para** mejorar la calidad educativa de mi facultad.
 
 **Criterios de Aceptación**:
 - Puedo crear planes de mejora con objetivos específicos
-- Puedo asignar responsables y fechas límite
+- Puedo asignar fechas límite
 - Puedo hacer seguimiento al avance de cada plan
-- Recibo notificaciones sobre planes vencidos o en riesgo
-
-#### HU-06: Evaluación de Coordinadores
-**Como** decano,  
-**Quiero** evaluar el desempeño de los coordinadores de departamento,  
-**Para** asegurar una gestión académica efectiva.
-
-**Criterios de Aceptación**:
-- Puedo completar formularios de evaluación para coordinadores
-- Puedo ver el historial de evaluaciones de cada coordinador
-- Puedo comparar el desempeño entre diferentes coordinadores
-
-### Coordinador
+- Recibo notificaciones sobre planes vencidos o en riesgo.
 
 #### HU-07: Evaluación de Docentes
-**Como** coordinador de departamento,  
+**Como** Coordinador/Decano de departamento,  
 **Quiero** evaluar a los docentes bajo mi supervisión,  
 **Para** contribuir a su evaluación integral de desempeño.
 
@@ -226,7 +213,7 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 - Puedo guardar borradores antes de enviar la evaluación final
 
 #### HU-08: Seguimiento a Docentes
-**Como** coordinador de departamento,  
+**Como** Coordinador/Decano de departamento,  
 **Quiero** hacer seguimiento al desempeño de los docentes,  
 **Para** identificar oportunidades de mejora y reconocer logros.
 
@@ -237,7 +224,7 @@ Este documento presenta los casos de uso e historias de usuario para el Sistema 
 - Recibo alertas sobre docentes con evaluaciones bajas
 
 #### HU-09: Generación de Actas
-**Como** coordinador de departamento,  
+**Como** Coordinador/Decano de departamento,  
 **Quiero** generar actas de compromiso para docentes con bajo desempeño,  
 **Para** formalizar acuerdos de mejora.
 
