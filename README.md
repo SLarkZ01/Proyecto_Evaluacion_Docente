@@ -34,6 +34,9 @@ El **Proyecto Evaluación Docente** busca optimizar el proceso de evaluación de
 - **Accede** a la documentacion completa mediante el pdf:  
   [Proyecto_de_Evaluación_Docente.pdf](Documentacion/Proyecto_de_Evaluación_Docente.pdf)
 
+- **Accede** a la plantilla que hemos usado para el proyecto en bases de datos II:  
+  [Plantilla_de_Definición_del_Proyecto___Base_de_Datos_II.pdf](Documentacion/Plantilla_de_Definición_del_Proyecto___Base_de_Datos_II.pdf)
+
 > **Nota:** Actualmente, el repositorio contiene mayormente la capa de **frontend** (HTML, CSS y JavaScript) con datos simulados. La integración con un **backend** (PHP, Laravel y MySQL) se llevará a cabo en futuras iteraciones.
 
 ---
